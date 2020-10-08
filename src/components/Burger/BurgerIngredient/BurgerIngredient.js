@@ -13,6 +13,7 @@ const burgerIngredient = (props) => {
             <div className="BreadTop">
                 <div className="Seed1"></div>
                 <div className="Seed2"></div>
+                <div className="Seed3"></div>
             </div>
         );
         break;
