@@ -14,12 +14,26 @@ const burgerIngredient = (props) => {
                 <div className="Seed1"></div>
                 <div className="Seed2"></div>
                 <div className="Seed3"></div>
+                <div className="Seed4"></div>
             </div>
         );
         break;
     case('meat'):
         ingredient = <div className="Meat"></div>;
         break;
+    case('cheese'):
+        ingredient = <div className="Cheese"></div>;
+        break;
+    case('onion'):
+        ingredient = <div className="Onion"></div>;
+        break;
+    case('cucumber'):
+        ingredient = <div className="Cucumber"></div>;
+        break;
+    case('olive'):
+        ingredient = <div className="Olive"></div>;
+        break;
+
     }
 };
 
