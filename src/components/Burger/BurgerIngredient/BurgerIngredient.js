@@ -46,4 +46,4 @@ class BurgerIngredient extends Component
         }
     }
 
-export default burgerIngredient;
+export default BurgerIngredient;
