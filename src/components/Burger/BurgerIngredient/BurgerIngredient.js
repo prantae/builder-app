@@ -33,8 +33,12 @@ const burgerIngredient = (props) => {
     case('olive'):
         ingredient = <div className="Olive"></div>;
         break;
-
+    case('bacon'):
+        ingredient = <div className="Bacon"></div>;
+        break;
     }
+
+    return ingredient;
 };
 
 export default burgerIngredient;
