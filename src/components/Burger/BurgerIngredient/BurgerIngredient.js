@@ -6,11 +6,7 @@ class BurgerIngredient extends Component
     {
         render() 
         {
-            
-        }
-    }
- {
-    let ingredient = null;
+            let ingredient = null;
 
     switch(props.type) {
      case('bread-bottom'):
@@ -47,6 +43,7 @@ class BurgerIngredient extends Component
     }
 
     return ingredient;
-};
+        }
+    }
 
 export default burgerIngredient;
